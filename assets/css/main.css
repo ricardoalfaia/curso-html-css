@@ -1,0 +1,98 @@
+:root {
+  --color-primary: #f9004d;
+  --color-primary-light: #ffedf2;
+  --color-body: #717173;
+  --color-heading: #1f1f25;
+  --color-secondary: #00d09c;
+  --color-tertiary: #030303;
+  --color-success: #3eb75e;
+  --color-danger: #ff0003;
+  --color-border: #e9e9e9;
+  --color-border-2: #0000004d;
+  --border-sdfs: #717173;
+  --color-lighter: #f8f9fc;
+  --color-white: #fff;
+  --color-extra1: #b1b4c1;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --background: #00010c;
+  --gradient-primary: linear-gradient(145deg, #f81f01, #ee076e);
+
+  --radius: 4px;
+  --border-width: 2px;
+  --shadow: 0 25px 70px rgb(0 0 0 / 7%);
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+  --h1: 72px;
+  --h2: 60px;
+  --h3: 40px;
+  --h4: 30px;
+  --h5: 20px;
+  --h6: 16px;
+
+  --xx-small: 9px;
+  --x-small: 10px;
+  --small: 13px;
+  --medium: 16px;
+  --large: 18px;
+  --x-large: 24px;
+  --xx-large: 32px;
+
+  --font-default: "Poppins", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-default);
+}
+
+.theme-gradient {
+  display: inline-block;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  font-size: 125px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 130px;
+}
